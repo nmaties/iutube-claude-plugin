@@ -1,0 +1,15 @@
+{
+  "name": "iutube",
+  "description": "YouTube creator tools from iutu.be for Claude.",
+  "owner": {
+    "name": "iutu.be",
+    "url": "https://iutu.be"
+  },
+  "plugins": [
+    {
+      "name": "iutube",
+      "source": "./",
+      "description": "YouTube creator tools from iutu.be: playlist length, video category, titles, descriptions, tags, intro hooks, channel names, video ideas, citations, and earnings estimates."
+    }
+  ]
+}

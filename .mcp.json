@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "iutube": {
+      "type": "http",
+      "url": "https://iutu.be/mcp"
+    }
+  }
+}
