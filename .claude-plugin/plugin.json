@@ -1,7 +1,7 @@
 {
   "name": "iutube",
   "displayName": "iutu.be YouTube tools",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "YouTube creator tools from iutu.be: playlist length, video category, titles, descriptions, tags, intro hooks, channel names, video ideas, citations, and earnings estimates.",
   "author": {
     "name": "iutu.be",
@@ -9,6 +9,7 @@
   },
   "homepage": "https://iutu.be",
   "repository": "https://github.com/nmaties/iutube-claude-plugin",
+  "privacyPolicyUrl": "https://iutu.be/privacy-policy",
   "license": "MIT",
   "keywords": ["youtube", "youtube-seo", "creator-tools", "playlist", "mcp"]
 }
