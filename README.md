@@ -1,6 +1,8 @@
-# iutu.be plugin for Claude
+# iutu.be YouTube tools for Claude
 
-YouTube creator tools from [iutu.be](https://iutu.be) for Claude Code.
+YouTube creator tools from [iutu.be](https://iutu.be) for Claude. Ask Claude how long a playlist is, what category a video is in, or for titles, descriptions, tags, opening hooks, channel names, video ideas, citations, and earnings estimates. No sign-in and no API key.
+
+This plugin is made by iutu.be. It is not affiliated with or endorsed by YouTube or Google.
 
 ## What it adds
 
@@ -41,3 +43,15 @@ From a local checkout of this repository:
 ```bash
 claude --plugin-dir .
 ```
+
+## What the plugin sends
+
+The plugin runs no code on your machine. It has no hooks and no scripts.
+
+The two MCP tools send the playlist or video link you give them to `https://iutu.be/mcp`. That server reads the public YouTube page and returns the result. It needs no account, and the plugin sends nothing else. The skills are instructions for Claude and make no network requests of their own.
+
+Privacy policy: https://iutu.be/privacy-policy
+
+## License
+
+MIT. See [LICENSE](LICENSE).
